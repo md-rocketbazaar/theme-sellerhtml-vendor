@@ -1,0 +1,19 @@
+{
+    "name": "md-rocketbazaar/theme-sellerhtml-vendor",
+    "description": "Vendor Panel",
+    "homepage": "https://github.com/md-rocketbazaar/theme-sellerhtml-vendor",
+    "require": {
+        "php": "~7.3.0||~7.4.0",
+        "magento/framework": "103.0.*",
+    },
+    "type": "magento2-theme",
+    "config": {
+        "sort-packages": true
+    },
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
